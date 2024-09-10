@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Marketplace from './pages/Marketplace';
 import Support from './pages/Support';
+import Register from './pages/Register';
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,14 @@ const router = createBrowserRouter([
     element: <>
       <NavBar/>
       <Support/>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/register",
+    element: <>
+      <NavBar/>
+      <Register/>
       <Footer/>
     </>,
   },
