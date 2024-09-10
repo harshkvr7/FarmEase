@@ -23,17 +23,12 @@ const NavBar = () => {
                 </Link>
                 <Link to={"/about"}>
                     <div className="hover:text-green-600 font-medium transition-all ">
-                        Abouts us
+                        About Us
                     </div>
                 </Link>
                 <Link to={"/contact"}>
                     <div className="hover:text-green-600 font-medium transition-all ">
                         Contact
-                    </div>
-                </Link>
-                <Link to={"/support"}>
-                    <div className="hover:text-green-600 font-medium transition-all ">
-                        Legal Support
                     </div>
                 </Link>
             </div>
