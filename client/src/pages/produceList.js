@@ -1,131 +1,76 @@
 const produceList = [
     {
-      name: "Tomatoes",
-      quantity: "50 kg",
-      basePrice: "$30",
-      currentPrice: "$35",
-      bidActive: true,
-      imageUrl: "https://example.com/images/tomatoes.jpg"
+        name: "Wheat",
+        quantity: "50 Quintal",
+        basePrice: "₹ 3500/Quintal",
+        currentPrice: "₹ 4000/Quintal",
+        bidActive: true,
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Indian_wheat_farms.jpg"
     },
     {
-      name: "Potatoes",
-      quantity: "100 kg",
-      basePrice: "$40",
-      currentPrice: "$42",
-      bidActive: false,
-      imageUrl: "https://example.com/images/potatoes.jpg"
+        name: "Maize",
+        quantity: "60 Quintal",
+        basePrice: "₹ 4500/Quintal",
+        currentPrice: "₹ 5000/Quintal",
+        bidActive: true,
+        imageUrl: "https://kj1bcdn.b-cdn.net/media/25064/maize.png"
     },
     {
-      name: "Onions",
-      quantity: "75 kg",
-      basePrice: "$25",
-      currentPrice: "$30",
-      bidActive: true,
-      imageUrl: "https://example.com/images/onions.jpg"
+        name: "Tomatoes",
+        quantity: "50 Quintal",
+        basePrice: "₹ 3500/Quintal",
+        currentPrice: "₹ 4500/Quintal",
+        bidActive: true,
+        imageUrl: "https://www.farmersalmanac.com/wp-content/uploads/2020/11/Planting-Guide-Tomatoes-A118789228.jpg"
     },
     {
-      name: "Carrots",
-      quantity: "60 kg",
-      basePrice: "$20",
-      currentPrice: "$22",
-      bidActive: false,
-      imageUrl: "https://www.marthastewart.com/thmb/YV4KqSevj0lJIDAmSkY2d0KtUGE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ms-carrots-garden-getty-0cab023c199449028f2eedd1cb398733.jpg"
+        name: "Potatoes",
+        quantity: "100 Quintal",
+        basePrice: "₹ 1500/Quintal",
+        currentPrice: "₹ 1700/Quintal",
+        bidActive: false,
+        imageUrl: "https://media.potatopro.com/potato-production-affected-due-to-unseasonal-rains-heat-wave-in-up-bengal-1200.jpg"
     },
     {
-      name: "Spinach",
-      quantity: "30 kg",
-      basePrice: "$10",
-      currentPrice: "$12",
-      bidActive: true,
-      imageUrl: "https://example.com/images/spinach.jpg"
+        name: "Onions",
+        quantity: "75 Quintal",
+        basePrice: "₹ 3500/Quintal",
+        currentPrice: "₹ 3700/Quintal",
+        bidActive: true,
+        imageUrl: "https://www.greenlife.co.ke/wp-content/uploads/2022/04/Bulb-Onion-Farming-Greenlife.jpg"
     },
     {
-      name: "Cabbage",
-      quantity: "45 kg",
-      basePrice: "$15",
-      currentPrice: "$18",
-      bidActive: true,
-      imageUrl: "https://example.com/images/cabbage.jpg"
+        name: "Carrots",
+        quantity: "60 Quintal",
+        basePrice: "₹ 3500/Quintal",
+        currentPrice: "₹ 4500/Quintal",
+        bidActive: false,
+        imageUrl: "https://www.canr.msu.edu/contentAsset/image/0e11fa08-9ec1-4a9c-85f5-31b625a61ff1/fileAsset/filter/Resize,Jpeg/resize_w/500/jpeg_q/80"
     },
     {
-      name: "Eggplant",
-      quantity: "50 kg",
-      basePrice: "$25",
-      currentPrice: "$28",
-      bidActive: false,
-      imageUrl: "https://example.com/images/eggplant.jpg"
+        name: "Spinach",
+        quantity: "30 Quintal",
+        basePrice: "₹ 1500/Quintal",
+        currentPrice: "₹ 1950/Quintal",
+        bidActive: true,
+        imageUrl: "https://www.greenlife.co.ke/wp-content/uploads/2022/04/farming_spinach.jpg"
     },
     {
-      name: "Bell Peppers",
-      quantity: "40 kg",
-      basePrice: "$35",
-      currentPrice: "$37",
-      bidActive: true,
-      imageUrl: "https://example.com/images/bell-peppers.jpg"
+        name: "Cabbage",
+        quantity: "45 Quintal",
+        basePrice: "₹ 2300/Quintal",
+        currentPrice: "₹ 3480/Quintal",
+        bidActive: true,
+        imageUrl: "https://www.greenlife.co.ke/wp-content/uploads/2022/04/Cabbage.jpg"
     },
     {
-      name: "Garlic",
-      quantity: "20 kg",
-      basePrice: "$50",
-      currentPrice: "$55",
-      bidActive: false,
-      imageUrl: "https://example.com/images/garlic.jpg"
+        name: "Eggplant",
+        quantity: "50 Quintal",
+        basePrice: "₹ 3600/Quintal",
+        currentPrice: "₹ 3650/Quintal",
+        bidActive: false,
+        imageUrl: "https://media.istockphoto.com/id/1095147072/photo/eggplant-in-the-garden-fresh-organic-eggplant-aubergine-purple-aubergine-growing-in-the-soil.jpg?s=612x612&w=0&k=20&c=hTjo16Rn4kjGS7vC3Lt9b4k1WbaU6WOTwLX1xpWMbNU="
     },
-    {
-      name: "Ginger",
-      quantity: "25 kg",
-      basePrice: "$45",
-      currentPrice: "$48",
-      bidActive: true,
-      imageUrl: "https://example.com/images/ginger.jpg"
-    },
-    {
-      name: "Zucchini",
-      quantity: "35 kg",
-      basePrice: "$22",
-      currentPrice: "$24",
-      bidActive: true,
-      imageUrl: "https://example.com/images/zucchini.jpg"
-    },
-    {
-      name: "Pumpkin",
-      quantity: "60 kg",
-      basePrice: "$40",
-      currentPrice: "$42",
-      bidActive: false,
-      imageUrl: "https://example.com/images/pumpkin.jpg"
-    },
-    {
-      name: "Cucumbers",
-      quantity: "70 kg",
-      basePrice: "$30",
-      currentPrice: "$32",
-      bidActive: true,
-      imageUrl: "https://example.com/images/cucumbers.jpg"
-    },
-    {
-      name: "Broccoli",
-      quantity: "25 kg",
-      basePrice: "$20",
-      currentPrice: "$23",
-      bidActive: false,
-      imageUrl: "https://example.com/images/broccoli.jpg"
-    },
-    {
-      name: "Cauliflower",
-      quantity: "40 kg",
-      basePrice: "$35",
-      currentPrice: "$38",
-      bidActive: true,
-      imageUrl: "https://example.com/images/cauliflower.jpg"
-    },
-    {
-      name: "Chili Peppers",
-      quantity: "15 kg",
-      basePrice: "$55",
-      currentPrice: "$58",
-      bidActive: true,
-      imageUrl: "https://example.com/images/chili-peppers.jpg"
-    }
-  ];
-  
+];
+
+export default produceList

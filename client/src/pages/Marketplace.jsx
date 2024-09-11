@@ -8,10 +8,10 @@ import ProduceCard from '../components/ProduceCard'
 const Marketplace = () => {
   return (
     <div className='pt-28 px-56 text-center text-white bg-zinc-800 pb-32'>
-      <span className='text-4xl'>FarmEase Marketplace</span>
+      <span className='text-5xl'>FarmEase Marketplace</span>
 
       <div className="flex justify-between gap-8">
-        <div className="w-1/5 flex flex-col gap-3 h-fit rounded-md p-3 bg-zinc-700 text-left">
+        <div className="w-1/5 flex flex-col gap-3 h-fit rounded-md p-3 bg-zinc-900 text-left">
           <span className='text-lg mb-3'>Filters</span>
 
           <div className="flex flex-col gap-1 mb-2">
@@ -74,12 +74,12 @@ const Marketplace = () => {
 
         <div className="w-4/5 flex flex-col mt-10">
           <div className="flex justify-between">
-            <div className="flex bg-zinc-700 pl-3 rounded-md">
+            <div className="flex bg-zinc-900 pl-3 rounded-md">
               <img className='w-6' src={searchIcon} />
-              <input type="text" className='bg-zinc-700 p-3 rounded-md' placeholder='Search' />
+              <input type="text" className='bg-zinc-900 p-3 rounded-md' placeholder='Search' />
             </div>
 
-            <div className="p-3 flex gap-6 bg-zinc-700 text-gray-300 rounded-md">--Sort by--  <img src={chevron} className='w-5' /></div>
+            <div className="p-3 flex gap-6 bg-zinc-900 text-gray-300 rounded-md">--Sort by--  <img src={chevron} className='w-5' /></div>
           </div>
 
           <div className="grid grid-cols-3 gap-4 mt-6">

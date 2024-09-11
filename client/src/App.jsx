@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Marketplace from './pages/Marketplace';
 import Support from './pages/Support';
 import Register from './pages/Register';
+import Contracts from './pages/Contracts';
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,14 @@ const router = createBrowserRouter([
     element: <>
       <NavBar/>
       <Register/>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/contracts",
+    element: <>
+      <NavBar/>
+      <Contracts/>
       <Footer/>
     </>,
   },

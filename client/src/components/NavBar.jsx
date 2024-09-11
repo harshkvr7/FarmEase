@@ -21,6 +21,11 @@ const NavBar = () => {
                         Marketplace
                     </div>
                 </Link>
+                <Link to={"/contracts"}>
+                    <div className="hover:text-green-600 font-medium transition-all duration-300">
+                        Contracts
+                    </div>
+                </Link>
                 <Link to={"/about"}>
                     <div className="hover:text-green-600 font-medium transition-all ">
                         About Us
