@@ -8,7 +8,7 @@ import youtubeIcon from "../assets/youtube.svg"
 
 const Contact = () => {
   return (
-    <div className='flex bg-zinc-800 text-white w-full justify-center px-72 py-48'>
+    <div className='flex bg-zinc-800 text-white w-full justify-center px-72 py-36'>
       <div className="flex-1 flex flex-col gap-6 bg-zinc-900 p-6 rounded-l-lg">
         <div className="text-5xl flex flex-col">
           Contact Us
@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
         <div className="text-lg"><b>For Farmers:</b> Have questions about listing your produce or need support? Contact our farmer support team at <a href="#" className='text-blue'>fefarmersupport@gmail.com</a> or call us at +91 9214331241</div>
 
-        <div className="text-lg"><b>For Buyers:</b>  Nood assistance with your orders or have inquiries about our products? Get in touch with our buyer support team at <a href="#" className='text-blue'>febuyersupport@gmail.com</a>febuyersupport@gmail.com or call us at +91-9214331241</div>
+        <div className="text-lg"><b>For Buyers:</b>  Nood assistance with your orders or have inquiries about our products? Get in touch with our buyer support team at febuyersupport@gmail.com or call us at +91-9214331241</div>
         <div className="flex gap-5 items-center">
                 <img src={linkedInIcon} className='h-4' />
                 <img src={instagramIcon} className='h-4'/>

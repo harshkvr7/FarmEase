@@ -2,13 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-table {
-    border-collapse: collapse;
-    border-radius: 30px;
-    border-style: hidden; /* hide standard table (collapsed) border */
-    box-shadow: 0 0 0 1px #666; /* this draws the table border  */ 
-}
-
-td {
-    border: 1px solid #ccc;
-}

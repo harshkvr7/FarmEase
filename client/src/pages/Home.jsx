@@ -31,7 +31,21 @@ const Home = () => {
           <div className="bg-zinc-900 p-4 text-xl rounded-md hover:shadow-xl shadow-zinc-900 transition-all">Chat function for negotiation</div>
         </div>
 
-        <img className='flex-1 w-1/2 rounded-xl shadow-xl shadow-zinc-900' src='https://farm-ease.stunning.so/_next/image/?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1535379453347-1ffd615e2e08%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w0OTM4MDh8MHwxfHNlYXJjaHw2fHxBZ3JpY3VsdHVyZSUyME1hcmtldHBsYWNlJTIwUGxhdGZvcm0lMjBsYXlvdXR8ZW58MHwwfHx8MTcyNTg5MjAyOXww%26ixlib%3Drb-4.0.3%26q%3D80%26w%3D1080&w=640&q=75' />
+        <img className='flex-1 object-cover w-1/2 rounded-xl shadow-xl shadow-zinc-900' src='https://farm-ease.stunning.so/_next/image/?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1535379453347-1ffd615e2e08%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w0OTM4MDh8MHwxfHNlYXJjaHw2fHxBZ3JpY3VsdHVyZSUyME1hcmtldHBsYWNlJTIwUGxhdGZvcm0lMjBsYXlvdXR8ZW58MHwwfHx8MTcyNTg5MjAyOXww%26ixlib%3Drb-4.0.3%26q%3D80%26w%3D1080&w=640&q=75' />
+      </div>
+
+      <div className="flex my-28 gap-8 w-3/5">
+        <img className='flex-1 object-cover w-1/2 rounded-xl shadow-xl shadow-zinc-900' src='https://farm-ease.stunning.so/_next/image/?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F27207183%2Fpexels-photo-27207183.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26h%3D650%26w%3D940&w=640&q=75' />
+        
+        <div className="flex-1 flex flex-col gap-6 justify-around">
+          <div className="text-5xl flex flex-col gap-2">
+            <span className='text-base'>Place your own contract with req price/T&C</span>
+            Explore market place
+          </div>
+          <div className="bg-zinc-900 p-4 text-xl rounded-md hover:shadow-xl shadow-zinc-900 transition-all">Keep track of all crops prices</div>
+          <div className="bg-zinc-900 p-4 text-xl rounded-md hover:shadow-xl shadow-zinc-900 transition-all">Analyze crop price and demand and set price for your crop</div>
+          <div className="bg-zinc-900 p-4 text-xl rounded-md hover:shadow-xl shadow-zinc-900 transition-all">Maximize your profit with fair pricing for your crops.</div>
+        </div>
       </div>
 
       <div className="flex flex-col justify-center items-center w-2/5 gap-5 mt-32 mb-28">
