@@ -43,7 +43,7 @@ const NavBar = () => {
                 </Link>
                 <Link to={"/Dashboard2"}>
                     <div className="hover:text-green-600 font-medium transition-all ">
-                        Dashboard-2
+                        Contractor Dashboard
                     </div>
                 </Link>
             </div>
