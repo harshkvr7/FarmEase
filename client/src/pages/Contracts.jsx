@@ -2,8 +2,8 @@ import React from 'react'
 
 import searchIcon from "../assets/search.svg"
 import chevron from "../assets/chevron-down.svg"
-import produceList from './produceList'
-import ProduceCard from '../components/ProduceCard'
+import contracts from './contractList'
+import ContractCard from '../components/ContractCard'
 
 const Contracts = () => {
     return (
@@ -32,7 +32,7 @@ const Contracts = () => {
                     </div>
 
                     <div className="flex flex-col gap-1 mb-2">
-                        <span className='text-xs mb-1'>BID STATUS</span>
+                        <span className='text-xs mb-1'>CONTRACT STATUS</span>
 
                         <div class="flex items-center">
                             <input id="default-radio-4" type="radio" value="" name="default-radio-2" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
@@ -67,7 +67,7 @@ const Contracts = () => {
                     </div>
 
                     <div className="flex justify-between hover:cursor-pointer hover:bg-zinc-600 p-2 rounded-md transition-all">
-                        Vendor Ratings
+                        Contract Duration
                         <img className='w-5' src={chevron} />
                     </div>
                 </div>
@@ -82,16 +82,17 @@ const Contracts = () => {
                         <div className="p-3 flex gap-6 bg-zinc-900 text-gray-300 rounded-md">--Sort by--  <img src={chevron} className='w-5' /></div>
                     </div>
 
-                    <div className="grid grid-cols-3 gap-4 mt-6">
-                        {produceList.map((produce, index) => (
-                            <ProduceCard
+                    <div className="grid grid-cols-1 grid-rows-max gap-4 mt-6">
+                        {contracts.map((contract, index) => (
+                            <ContractCard
                                 key={index}
-                                img={produce.imageUrl}
-                                name={produce.name}
-                                quantity={produce.quantity}
-                                basePrice={produce.basePrice}
-                                currentPrice={produce.currentPrice}
-                                bidActive={produce.bidActive}
+                                contractor={contract.contractor}
+                                cropName={contract.cropName}
+                                duration={contract.duration}
+                                capital={contract.capital}
+                                img={contract.img}
+                                desc={contract.desc}
+                                work={contract.work}
                             />
                         ))}
                     </div>

@@ -1,0 +1,77 @@
+const contracts = [
+    {
+        contractor: "AgroCorp Pvt Ltd",
+        cropName: "Corn",
+        duration: "3 months",
+        capital: "₹5,00,000",
+        img: "https://lisdel.org/wp-content/uploads/2021/05/ccorn-seeds.jpg",
+        desc: "Contract for growing corn with high yield expectations.",
+        work: "Planting, fertilizing, and harvesting",
+    },
+    {
+        contractor: "GreenField Enterprises",
+        cropName: "Soybean",
+        duration: "4 months",
+        capital: "₹7,00,000",
+        img: "https://rukminim2.flixcart.com/image/850/1000/ksez24w0/edible-seed/3/n/q/900-soyabean-900-gm-high-protein-premium-soyabean-1-pouch-raw-original-imag5zpfjn42rwty.jpeg?q=90&crop=false",
+        desc: "Soybean contract with organic farming requirements.",
+        work: "Soil preparation, sowing, and pest control",
+    },
+    {
+        contractor: "HarvestCorp Ltd",
+        cropName: "Rice",
+        duration: "6 months",
+        capital: "₹8,00,000",
+        img: "https://example.com/rice.jpg",
+        desc: "Contract for growing rice in paddy fields.",
+        work: "Water management, weeding, and harvesting",
+    },
+    {
+        contractor: "FreshFarms Co.",
+        cropName: "Tomato",
+        duration: "2 months",
+        capital: "₹6,00,000",
+        img: "https://example.com/tomato.jpg",
+        desc: "Short-term contract for growing tomatoes in greenhouses.",
+        work: "Planting, pruning, and pest control",
+    },
+    {
+        contractor: "BarleyTech Ltd",
+        cropName: "Barley",
+        duration: "5 months",
+        capital: "₹9,00,000",
+        img: "https://example.com/barley.jpg",
+        desc: "Barley cultivation with emphasis on sustainable practices.",
+        work: "Field preparation, sowing, and harvesting",
+    },
+    {
+        contractor: "AgriVantage Pvt Ltd",
+        cropName: "Potato",
+        duration: "4 months",
+        capital: "₹7,50,000",
+        img: "https://example.com/potato.jpg",
+        desc: "Contract for potato farming with high-quality standards.",
+        work: "Tillage, planting, and post-harvest handling",
+    },
+    {
+        contractor: "CottonGrowers Ltd",
+        cropName: "Cotton",
+        duration: "7 months",
+        capital: "₹10,00,000",
+        img: "https://example.com/cotton.jpg",
+        desc: "Long-term contract for growing cotton.",
+        work: "Planting, cultivation, and harvesting",
+    },
+    {
+        contractor: "SugarCane Industries",
+        cropName: "Sugarcane",
+        duration: "8 months",
+        capital: "₹12,00,000",
+        img: "https://example.com/sugarcane.jpg",
+        desc: "Contract for sugarcane cultivation with specific yield targets.",
+        work: "Planting, irrigation, and harvesting",
+    }
+];
+
+
+export default contracts;

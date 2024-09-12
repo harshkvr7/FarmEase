@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProduceCard = (props) => {
     return (
-        <div className='grid p-2 gap-2 grid-rows-max bg-zinc-900 rounded-md'>
+        <div className='grid p-2 gap-2 grid-rows-max bg-zinc-900 rounded-md hover:shadow-lg hover:-translate-y-3 transition-all'>
             <div className="flex justify-between items-center">
                 <div className="bg-zinc-800 p-1 rounded-md font-bold">
                     {props.currentPrice}

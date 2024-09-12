@@ -11,6 +11,8 @@ import Marketplace from './pages/Marketplace';
 import Support from './pages/Support';
 import Register from './pages/Register';
 import Contracts from './pages/Contracts';
+import ActiveContracts from './pages/ActiveContracts';
+import Dashboard2 from './pages/Dashboard2';
 
 const router = createBrowserRouter([
   {
@@ -74,6 +76,22 @@ const router = createBrowserRouter([
     element: <>
       <NavBar/>
       <Contracts/>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/dashboard/contracts",
+    element: <>
+      <NavBar/>
+      <ActiveContracts/>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/dashboard2",
+    element: <>
+      <NavBar/>
+      <Dashboard2/>
       <Footer/>
     </>,
   },

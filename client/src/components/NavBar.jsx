@@ -36,6 +36,16 @@ const NavBar = () => {
                         Contact
                     </div>
                 </Link>
+                <Link to={"/Support"}>
+                    <div className="hover:text-green-600 font-medium transition-all ">
+                        Support
+                    </div>
+                </Link>
+                <Link to={"/Dashboard2"}>
+                    <div className="hover:text-green-600 font-medium transition-all ">
+                        Dashboard-2
+                    </div>
+                </Link>
             </div>
             <div className="flex gap-5 items-center">
                 <img src={linkedInIcon} className='h-4' />
