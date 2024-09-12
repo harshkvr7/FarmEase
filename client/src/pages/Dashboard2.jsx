@@ -57,20 +57,20 @@ const Dashboard2 = () => {
                     <div className="flex-1">
                         <div className="w-full flex flex-col gap-2">
                             <div className="flex-1 flex flex-col bg-zinc-900 border p-3 border-zinc-700 hover:shadow-lg transition-all shadow-white rounded-md">
-                                <div className="font-semibold text-lg mb-4">Active Contract Details</div>
+                                <div className="font-semibold text-lg mb-4">Stats and Insights</div>
 
-                                <div className="mb-2">Updates from farmer</div>
-                                <div className="mb-2">Agreement details</div>
-                                <div className="">Payment Timelines</div>
+                                <div className="mb-2">Wheat - ABC Corp : In Progress</div>
+                                <div className="mb-2">Rice - XYZ Foods : Pending</div>
+                                <div className="">Wheat - ABC Corp : In Progress</div>
                                 <div className="self-end border border-blue-700 hover:border-blue-400 bg-blue-700 text-white py-1 px-2 rounded-md hover:bg-blue-600 hover:cursor-pointer">
                                     View More
                                 </div>
                             </div>
                             <div className="flex-1 flex flex-col bg-zinc-900 border p-3 border-zinc-700 hover:shadow-lg transition-all shadow-white rounded-md">
-                                <div className="font-semibold text-lg mb-4">Task To Do</div>
-                                <div className="mb-2">Completion Checkbox</div>
-                                <div className="mb-2">Upcoming Deadlines</div>
-                                <div className="">Progress Indicator</div>
+                                <div className="font-semibold text-lg mb-4">Latest Updates</div>
+                                <div className="mb-2">Contractor Success Stories</div>
+                                <div className="mb-2">Networking Opportunities</div>
+                                <div className="">Referral Program</div>
                                 <div className="self-end border border-blue-700 hover:border-blue-400 bg-blue-700 text-white py-1 px-2 rounded-md hover:bg-blue-600 hover:cursor-pointer">
                                     Expand
                                 </div>

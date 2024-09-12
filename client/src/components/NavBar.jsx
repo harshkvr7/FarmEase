@@ -9,7 +9,7 @@ import youtubeIcon from "../assets/youtube.svg"
 
 const NavBar = () => {
     return (
-        <nav className='w-screen h-16 fixed items-center top-0 flex justify-between py-3 px-20 text-white bg-black bg-opacity-90 backdrop-blur-sm'>
+        <nav className='w-screen z-10 h-16 fixed items-center top-0 flex justify-between py-3 px-20 text-white bg-black bg-opacity-90 backdrop-blur-sm'>
             <div className="flex gap-5 items-center">
                 <Link to={"/"}>
                     <div className="text-2xl pb-1 mr-4 font-semibold transition-all ">
